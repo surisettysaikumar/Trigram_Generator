@@ -156,11 +156,11 @@ public class InputParser {
 			// Read the configuration file for input properties.
 			InputStream input = new FileInputStream("config.properties");
 			Properties prop = new Properties();
+			// load the properties file
+			prop.load(input);
 			LOGGER.info("List of Configurable Parameters:");
 			LOGGER.info("inputFileName: " + prop.getProperty("inputFileName"));
 			LOGGER.info("outputFileName: " + prop.getProperty("outputFileName"));
-			// load the properties file
-			prop.load(input);
 		} catch (SecurityException e) {
 			e.printStackTrace();
 		} catch (IOException e) {

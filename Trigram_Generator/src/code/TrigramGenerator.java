@@ -48,8 +48,8 @@ public class TrigramGenerator {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		WORD_LIMIT = Integer.parseInt(prop.getProperty("Word_Limit").trim()); // Getting word limit value input from
-																				// config file
+		WORD_LIMIT = Integer.parseInt(prop.getProperty("Word_Limit").trim()); // Getting word limit value input from config file
+																				
 		StringBuilder textBuilder = new StringBuilder();
 		// get a random key to start with.
 		String startKey = getRandomString(new ArrayList<String>(trigramMap.keySet()));
