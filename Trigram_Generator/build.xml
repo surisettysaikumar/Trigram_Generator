@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="Trigram_Generator">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../../eclipse/jee-2021-03/eclipse/"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="14"/>
+    <property name="source" value="14"/>
+    <path id="JUnit 5.libraryclasspath">
+        <pathelement location="../../../.p2/pool/plugins/org.junit.jupiter.api_5.7.1.v20210222-1948.jar"/>
+        <pathelement location="../../../.p2/pool/plugins/org.junit.jupiter.engine_5.7.1.v20210222-1948.jar"/>
+        <pathelement location="../../../.p2/pool/plugins/org.junit.jupiter.migrationsupport_5.7.1.v20210222-1948.jar"/>
+        <pathelement location="../../../.p2/pool/plugins/org.junit.jupiter.params_5.7.1.v20210222-1948.jar"/>
+        <pathelement location="../../../.p2/pool/plugins/org.junit.platform.commons_1.7.1.v20210222-1948.jar"/>
+        <pathelement location="../../../.p2/pool/plugins/org.junit.platform.engine_1.7.1.v20210222-1948.jar"/>
+        <pathelement location="../../../.p2/pool/plugins/org.junit.platform.launcher_1.7.1.v20210222-1948.jar"/>
+        <pathelement location="../../../.p2/pool/plugins/org.junit.platform.runner_1.7.1.v20210222-1948.jar"/>
+        <pathelement location="../../../.p2/pool/plugins/org.junit.platform.suite.api_1.7.1.v20210222-1948.jar"/>
+        <pathelement location="../../../.p2/pool/plugins/org.junit.vintage.engine_5.7.1.v20210222-1948.jar"/>
+        <pathelement location="../../../.p2/pool/plugins/org.opentest4j_1.2.0.v20190826-0900.jar"/>
+        <pathelement location="../../../.p2/pool/plugins/org.apiguardian_1.1.0.v20190826-0900.jar"/>
+        <pathelement location="../../../.p2/pool/plugins/org.junit_4.13.0.v20200204-1500.jar"/>
+        <pathelement location="../../../.p2/pool/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+    </path>
+    <path id="Trigram_Generator.classpath">
+        <pathelement location="bin"/>
+        <path refid="JUnit 5.libraryclasspath"/>
+    </path>
+    <path id="run.AllTests.classpath">
+        <path refid="Trigram_Generator.classpath"/>
+        <path refid="JUnit 5.libraryclasspath"/>
+    </path>
+    <path id="run.InputParserTest (1).classpath">
+        <path refid="Trigram_Generator.classpath"/>
+        <path refid="JUnit 5.libraryclasspath"/>
+    </path>
+    <path id="run.Main (1).classpath">
+        <path refid="Trigram_Generator.classpath"/>
+        <path refid="JUnit 5.libraryclasspath"/>
+    </path>
+    <path id="run.PopulateTrigramTest (1).classpath">
+        <path refid="Trigram_Generator.classpath"/>
+        <path refid="JUnit 5.libraryclasspath"/>
+    </path>
+    <path id="run.TestCasesSuite.classpath">
+        <path refid="Trigram_Generator.classpath"/>
+        <path refid="JUnit 5.libraryclasspath"/>
+    </path>
+    <path id="run.TrigramGeneratorTest (1).classpath">
+        <path refid="Trigram_Generator.classpath"/>
+        <path refid="JUnit 5.libraryclasspath"/>
+    </path>
+    <path id="run.TrigramMapTest (1).classpath">
+        <path refid="Trigram_Generator.classpath"/>
+        <path refid="JUnit 5.libraryclasspath"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="Trigram_Generator.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="AllTests">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="testcases.AllTests" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.AllTests.classpath"/>
+        </junit>
+    </target>
+    <target name="InputParserTest (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="testcases.InputParserTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.InputParserTest (1).classpath"/>
+        </junit>
+    </target>
+    <target name="Main (1)">
+        <java classname="code.Main" failonerror="true" fork="yes">
+            <classpath refid="run.Main (1).classpath"/>
+        </java>
+    </target>
+    <target name="PopulateTrigramTest (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="testcases.PopulateTrigramTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.PopulateTrigramTest (1).classpath"/>
+        </junit>
+    </target>
+    <target name="TestCasesSuite">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="testcases.TestCasesSuite" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.TestCasesSuite.classpath"/>
+        </junit>
+    </target>
+    <target name="TrigramGeneratorTest (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="testcases.TrigramGeneratorTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.TrigramGeneratorTest (1).classpath"/>
+        </junit>
+    </target>
+    <target name="TrigramMapTest (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="testcases.TrigramMapTest" todir="${junit.output.dir}"/>
+            <jvmarg line="-ea"/>
+            <classpath refid="run.TrigramMapTest (1).classpath"/>
+        </junit>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>
