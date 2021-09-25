@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-09-24T20:58:39.805311600Z</date>
+  <millis>1632517119805</millis>
+  <nanos>311600</nanos>
+  <sequence>1</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>trigramDisplay</method>
+  <thread>1</thread>
+  <message>I wish	=&gt; [I, I]</message>
+</record>
+<record>
+  <date>2021-09-24T20:58:39.809747600Z</date>
+  <millis>1632517119809</millis>
+  <nanos>747600</nanos>
+  <sequence>2</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>trigramDisplay</method>
+  <thread>1</thread>
+  <message>may I	=&gt; [wish]</message>
+</record>
+<record>
+  <date>2021-09-24T20:58:39.810298300Z</date>
+  <millis>1632517119810</millis>
+  <nanos>298300</nanos>
+  <sequence>3</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>trigramDisplay</method>
+  <thread>1</thread>
+  <message>I may	=&gt; [I]</message>
+</record>
+<record>
+  <date>2021-09-24T20:58:39.810832200Z</date>
+  <millis>1632517119810</millis>
+  <nanos>832200</nanos>
+  <sequence>4</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>trigramDisplay</method>
+  <thread>1</thread>
+  <message>wish I	=&gt; [may, might]</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-09-24T21:05:56.084908200Z</date>
+  <millis>1632517556084</millis>
+  <nanos>908200</nanos>
+  <sequence>1</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>logStarter</method>
+  <thread>1</thread>
+  <message>List of Configurable Parameters:</message>
+</record>
+<record>
+  <date>2021-09-24T21:05:56.087911200Z</date>
+  <millis>1632517556087</millis>
+  <nanos>911200</nanos>
+  <sequence>2</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>logStarter</method>
+  <thread>1</thread>
+  <message>inputFileName: null</message>
+</record>
+<record>
+  <date>2021-09-24T21:05:56.088892800Z</date>
+  <millis>1632517556088</millis>
+  <nanos>892800</nanos>
+  <sequence>3</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>logStarter</method>
+  <thread>1</thread>
+  <message>outputFileName: null</message>
+</record>
+<record>
+  <date>2021-09-24T21:05:56.102969800Z</date>
+  <millis>1632517556102</millis>
+  <nanos>969800</nanos>
+  <sequence>4</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>trigramDisplay</method>
+  <thread>1</thread>
+  <message>I wish	=&gt; [I, I]</message>
+</record>
+<record>
+  <date>2021-09-24T21:05:56.103933700Z</date>
+  <millis>1632517556103</millis>
+  <nanos>933700</nanos>
+  <sequence>5</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>trigramDisplay</method>
+  <thread>1</thread>
+  <message>may I	=&gt; [wish]</message>
+</record>
+<record>
+  <date>2021-09-24T21:05:56.104932200Z</date>
+  <millis>1632517556104</millis>
+  <nanos>932200</nanos>
+  <sequence>6</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>trigramDisplay</method>
+  <thread>1</thread>
+  <message>I may	=&gt; [I]</message>
+</record>
+<record>
+  <date>2021-09-24T21:05:56.104932200Z</date>
+  <millis>1632517556104</millis>
+  <nanos>932200</nanos>
+  <sequence>7</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>trigramDisplay</method>
+  <thread>1</thread>
+  <message>wish I	=&gt; [may, might]</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-09-24T21:06:33.615928900Z</date>
+  <millis>1632517593615</millis>
+  <nanos>928900</nanos>
+  <sequence>1</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>logStarter</method>
+  <thread>1</thread>
+  <message>List of Configurable Parameters:</message>
+</record>
+<record>
+  <date>2021-09-24T21:06:33.618921300Z</date>
+  <millis>1632517593618</millis>
+  <nanos>921300</nanos>
+  <sequence>2</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>logStarter</method>
+  <thread>1</thread>
+  <message>inputFileName: null</message>
+</record>
+<record>
+  <date>2021-09-24T21:06:33.618921300Z</date>
+  <millis>1632517593618</millis>
+  <nanos>921300</nanos>
+  <sequence>3</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>logStarter</method>
+  <thread>1</thread>
+  <message>outputFileName: null</message>
+</record>
+<record>
+  <date>2021-09-24T21:06:33.630906300Z</date>
+  <millis>1632517593630</millis>
+  <nanos>906300</nanos>
+  <sequence>4</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>trigramDisplay</method>
+  <thread>1</thread>
+  <message>I wish	=&gt; [I, I]</message>
+</record>
+<record>
+  <date>2021-09-24T21:06:33.630906300Z</date>
+  <millis>1632517593630</millis>
+  <nanos>906300</nanos>
+  <sequence>5</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>trigramDisplay</method>
+  <thread>1</thread>
+  <message>may I	=&gt; [wish]</message>
+</record>
+<record>
+  <date>2021-09-24T21:06:33.631886900Z</date>
+  <millis>1632517593631</millis>
+  <nanos>886900</nanos>
+  <sequence>6</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>trigramDisplay</method>
+  <thread>1</thread>
+  <message>I may	=&gt; [I]</message>
+</record>
+<record>
+  <date>2021-09-24T21:06:33.631886900Z</date>
+  <millis>1632517593631</millis>
+  <nanos>886900</nanos>
+  <sequence>7</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>trigramDisplay</method>
+  <thread>1</thread>
+  <message>wish I	=&gt; [may, might]</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-09-24T22:00:22.291673700Z</date>
+  <millis>1632520822291</millis>
+  <nanos>673700</nanos>
+  <sequence>1</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>logStarter</method>
+  <thread>1</thread>
+  <message>List of Configurable Parameters:</message>
+</record>
+<record>
+  <date>2021-09-24T22:00:22.295020100Z</date>
+  <millis>1632520822295</millis>
+  <nanos>20100</nanos>
+  <sequence>2</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>logStarter</method>
+  <thread>1</thread>
+  <message>inputFileName: null</message>
+</record>
+<record>
+  <date>2021-09-24T22:00:22.295020100Z</date>
+  <millis>1632520822295</millis>
+  <nanos>20100</nanos>
+  <sequence>3</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>logStarter</method>
+  <thread>1</thread>
+  <message>outputFileName: null</message>
+</record>
+<record>
+  <date>2021-09-24T22:00:22.310978700Z</date>
+  <millis>1632520822310</millis>
+  <nanos>978700</nanos>
+  <sequence>4</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>trigramDisplay</method>
+  <thread>1</thread>
+  <message>I wish	=&gt; [I, I]</message>
+</record>
+<record>
+  <date>2021-09-24T22:00:22.311975400Z</date>
+  <millis>1632520822311</millis>
+  <nanos>975400</nanos>
+  <sequence>5</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>trigramDisplay</method>
+  <thread>1</thread>
+  <message>may I	=&gt; [wish]</message>
+</record>
+<record>
+  <date>2021-09-24T22:00:22.312981700Z</date>
+  <millis>1632520822312</millis>
+  <nanos>981700</nanos>
+  <sequence>6</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>trigramDisplay</method>
+  <thread>1</thread>
+  <message>I may	=&gt; [I]</message>
+</record>
+<record>
+  <date>2021-09-24T22:00:22.313108300Z</date>
+  <millis>1632520822313</millis>
+  <nanos>108300</nanos>
+  <sequence>7</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>trigramDisplay</method>
+  <thread>1</thread>
+  <message>wish I	=&gt; [may, might]</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-09-25T09:07:51.747184900Z</date>
+  <millis>1632560871747</millis>
+  <nanos>184900</nanos>
+  <sequence>1</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>logStarter</method>
+  <thread>1</thread>
+  <message>List of Configurable Parameters:</message>
+</record>
+<record>
+  <date>2021-09-25T09:07:51.752171400Z</date>
+  <millis>1632560871752</millis>
+  <nanos>171400</nanos>
+  <sequence>2</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>logStarter</method>
+  <thread>1</thread>
+  <message>inputFileName: null</message>
+</record>
+<record>
+  <date>2021-09-25T09:07:51.753169300Z</date>
+  <millis>1632560871753</millis>
+  <nanos>169300</nanos>
+  <sequence>3</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>logStarter</method>
+  <thread>1</thread>
+  <message>outputFileName: null</message>
+</record>
+<record>
+  <date>2021-09-25T09:07:51.772190300Z</date>
+  <millis>1632560871772</millis>
+  <nanos>190300</nanos>
+  <sequence>4</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>trigramDisplay</method>
+  <thread>1</thread>
+  <message>I wish	=&gt; [I, I]</message>
+</record>
+<record>
+  <date>2021-09-25T09:07:51.773114900Z</date>
+  <millis>1632560871773</millis>
+  <nanos>114900</nanos>
+  <sequence>5</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>trigramDisplay</method>
+  <thread>1</thread>
+  <message>may I	=&gt; [wish]</message>
+</record>
+<record>
+  <date>2021-09-25T09:07:51.774112300Z</date>
+  <millis>1632560871774</millis>
+  <nanos>112300</nanos>
+  <sequence>6</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>trigramDisplay</method>
+  <thread>1</thread>
+  <message>I may	=&gt; [I]</message>
+</record>
+<record>
+  <date>2021-09-25T09:07:51.774112300Z</date>
+  <millis>1632560871774</millis>
+  <nanos>112300</nanos>
+  <sequence>7</sequence>
+  <logger>code.TrigramGenerator</logger>
+  <level>INFO</level>
+  <class>code.InputParser</class>
+  <method>trigramDisplay</method>
+  <thread>1</thread>
+  <message>wish I	=&gt; [may, might]</message>
+</record>
+</log>
